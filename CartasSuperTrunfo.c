@@ -1,22 +1,71 @@
 #include <stdio.h>
+ 
+int main(){
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+char a, b, c, d, f, g, h;
+char str[1][2][3][4];
+int populacao1,populacao2;
+float Área1, Área2;
+float Pib1, Pib2;
+int turísticos1, turísticos2;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+printf("digite o estado:");
+scanf("%c", &a);
 
-    return 0;
+printf("digite a cidade:");
+scanf("%s" , &str);
+
+printf("digite a populacao:");
+scanf("%d", &populacao1);
+
+printf("digite a Área:");
+scanf("%f", &Área1);
+
+printf("digite o Pib:");
+scanf("%f", &Pib1);
+
+printf("pontos turísticos:");
+scanf("%d", &turísticos1);
+
+
+
+printf("estado:%c" , a);
+printf("cidade:%s" ,str);
+printf("população:%d" ,populacao1);
+printf("Área:%f" , Área1);
+printf("Pib:%f" ,Pib1);
+printf("turísticos:%d" , turísticos1);
+
+
+printf("digite o estado:");
+scanf("%s" , &b);
+
+printf("digite a cidade:");
+scanf("%s" , &str);
+
+printf("digite a população:");
+scanf("%d" , &populacao2);
+
+printf("digite a Área:");
+scanf("%f" , &Área2);
+
+printf("digite o pib:");
+scanf("%f", &Pib2);
+
+printf("pontos turísticos:");
+scanf("%d" , &turísticos2);
+
+printf("estado:%c" , b);
+printf("cidade:%s" , str);
+printf("população:%d" , populacao2);
+printf("Área:%f" , Área2);
+printf("Pib2:%f" ,Pib2);
+printf("turísticos:%d" , turísticos2);
+
+
+
+
+
+
+return 0;
 }
